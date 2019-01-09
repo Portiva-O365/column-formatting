@@ -3,8 +3,8 @@
 This repository contains samples for column formatting in modern lists and document libraries. Each sample has it's own folder in the repository and contains a README for setup and usage in SharePoint Online.
 
 ## Available Column Formatting Samples
-- Add icon links to Site Settings, Site Security and Site Contents based on Site Url field
-- Add filter links for header/details lists
+- [Add icon links](https://github.com/Portiva-O365/column-formatting/tree/master/IconLinks) to Site Settings, Site Security and Site Contents based on Site Url field
+- [Add filter links](https://github.com/Portiva-O365/column-formatting/tree/master/FilterLinks) for header/details lists
 
 ## Notes
 - If you create or maintain the JSON code, use a JSON editor like [Visual Studio Code](https://code.visualstudio.com/). This will make life much easier!
