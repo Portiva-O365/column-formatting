@@ -1,0 +1,17 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "span",
+    "children": [{
+        "elmType": "a",
+        "style": {
+            "font-size": "150%",
+            "padding-right": "10px"
+        },
+        "attributes": {
+            "iconName": "Filter",
+            "target": "_blank",
+            "href": "='[Url To View in Connected List]?FilterField1=[Connected Field Name]&FilterType1=Text&FilterOp1=In&FilterValue1=' + [$Title]",
+            "title": "Show Connected Details..."
+        }
+    }]
+}

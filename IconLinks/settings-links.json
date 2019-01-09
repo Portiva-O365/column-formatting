@@ -1,0 +1,44 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "span",
+    "children": [{
+            "elmType": "a",
+            "style": {
+                "font-size": "150%",
+                "padding-right": "10px"
+            },
+            "attributes": {
+                "iconName": "DataConnectionLibrary",
+                "target": "_blank",
+                "href": "=[$SiteUrl] + '/_layouts/15/viewlsts.aspx'",
+                "title": "Open Site Contents..."
+            }
+        },
+        {
+            "elmType": "a",
+            "style": {
+                "font-size": "150%",
+                "padding-right": "10px"
+            },
+            "attributes": {
+                "iconName": "LaptopSecure",
+                "target": "_blank",
+                "href": "=[$SiteUrl] + '/_layouts/15/user.aspx'",
+                "title": "Open Site Security..."
+            }
+        },
+        {
+            "elmType": "a",
+            "style": {
+                "font-size": "150%",
+                "padding-right": "10px"
+            },
+            "attributes": {
+                "iconName": "Settings",
+                "target": "_blank",
+                "href": "=[$SiteUrl] + '/_layouts/15/settings.aspx'",
+                "title": "Open Site Settings..."
+            }
+        }
+    ]
+}
